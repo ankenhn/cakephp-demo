@@ -1,0 +1,70 @@
+html,body {
+    margin:0;
+    padding:0;
+}
+body {
+    font-size:13px;
+    font-family: Arial, sans-serif;
+}
+.left {
+    float:left;
+}
+.right {
+    float:right;
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+.list-view {
+    margin:0;
+    padding:0;
+}
+.list-view li.item:first-child {
+    border: none;
+}
+.list-view li.item {
+    list-style: none;
+    height:50px;
+    clear: both;
+    padding:10px 15px;
+    border-top: 1px solid #eeeeee;
+    cursor: pointer;
+    overflow: hidden;
+}
+.list-view li.item:active, .list-view li.focus {
+    background: #eeeeee;
+}
+.list-view li.item .image {
+    width:20%;
+    max-width: 100px;
+    max-height: 100%;
+    overflow: hidden;
+    float:left;
+}
+.list-view li.item .image img {
+    width: 100%;
+}
+.list-view li.item .content {
+    width:70%;
+    float:left;
+    margin-left:10px;
+}
+
+.list-view li.item .content p.title {
+    margin: 0;
+}
+.list-view li.item .content p.description {
+    margin: 0;
+    color:#777777;
+}
+.list-view li.item .action {
+    line-height:50px;
+    color:#CCCCCC;
+    float:right;
+}
+.list-view li.item .action a {
+    color:#999999;
+}
