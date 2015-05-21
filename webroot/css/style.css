@@ -40,7 +40,6 @@ header ul li {
     list-style:none;
 }
 .sub-header {
-    line-height:30px;
     margin-top:50px;
     text-align: center;
 }
@@ -92,7 +91,36 @@ footer ul li a i.fa {
 .sub-header {
     background: #02808C;
     color: #FFFFFF;
-    letter-spacing: 10px;
     font-weight: bold;
+    height:30px;
+}
+.sub-header ul {
+    margin:8px 0 0;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding:0;
+}
+.sub-header ul li {
+    list-style:none;
+    display: inline;
+    margin:0 5px;
+}
+.sub-header ul li span {
+    line-height:22px;
+    width:22px;
+    text-align: center;
+    background:#FFFFFF;
+    display: inline-block;
+    color:#111111;
+    position: relative;
+}
+.sub-header ul li span:after {
+    border-bottom: 1px solid #000000;
+    content: " ";
+    bottom: 11px;
+    display: block;
+    width: 100%;
+    position: absolute;
 }
 /*** LIST VIEW ***/

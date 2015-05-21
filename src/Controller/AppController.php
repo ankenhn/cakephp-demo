@@ -37,6 +37,8 @@ class AppController extends Controller
     public function initialize()
     {
         parent::initialize();
+        $this->loadComponent('Point');
         $this->loadComponent('Flash');
+        $this->set('Point',$this->Point);
     }
 }

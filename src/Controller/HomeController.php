@@ -6,8 +6,6 @@ class HomeController extends AppController
 
     public function index()
     {
-        $session = $this->request->session();
-        $session->write('point',123456789);
         $item = [
             'title' =>  'This is title',
             'description'   =>  'Description for this item',
